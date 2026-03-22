@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blush: #f9c5d1;
+  --blush-deep: #f0899a;
+  --mauve: #c9a0c4;
+  --mauve-light: #ede0f0;
+  --plum: #7b4f7e;
+  --cream: #fdf6f0;
+  --cream-dark: #f5ebe0;
+  --gold: #d4a853;
+  --gold-light: #f0d9a0;
+  --text-dark: #1a0a1e;
+  --text-mid: #5a3060;
+  --text-soft: #a07aaa;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: var(--cream);
+  color: var(--text-dark);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--blush); border-radius: 10px; }
