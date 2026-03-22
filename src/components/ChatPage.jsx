@@ -152,7 +152,7 @@ const botReply = response.data.choices[0].message.content;
             <div style={{ width: "6px", height: "6px", borderRadius: "50%", background: "#66bb6a", boxShadow: "0 0 6px #66bb6a" }} />
             <span style={{ fontSize: "0.72rem", fontWeight: "600", color: "var(--text-mid)" }}>StyleX Online</span>
           </div>
-          <div style={{ fontSize: "0.68rem", color: "var(--text-soft)", lineHeight: "1.4" }}>Powered by Gemini AI</div>
+          <div style={{ fontSize: "0.68rem", color: "var(--text-soft)", lineHeight: "1.4" }}>Powered by Groq AI</div>
         </div>
       </div>
       <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
@@ -326,7 +326,7 @@ const botReply = response.data.choices[0].message.content;
             </button>
           </div>
           <div style={{ textAlign: "center", marginTop: "0.6rem", fontSize: "0.68rem", color: "var(--text-soft)" }}>
-            StyleX · AI Fashion Advisor · Powered by Gemini
+            StyleX · AI Fashion Advisor · Powered by Groq
           </div>
         </div>
       </div>
